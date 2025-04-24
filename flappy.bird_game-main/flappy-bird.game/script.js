@@ -29,9 +29,9 @@ let topPipeImg;
 let bottomPipeImg;
 
 // Физика
-let velocityX = -1.5;
-let velocityY = -1;
-let gravity = 0.1;
+let velocityX = -1.5;// Скорость движения труб по оси X (отрицательное значение для движения влево)
+let velocityY = -1;// Вертикальная скорость птицы (отрицательное значение для подъёма)
+let gravity = 0.1;// Сила тяжести, которая влияет на птицу
 
 let gameOver = false;
 let score = 0;
